@@ -1,0 +1,7 @@
+.navbar-nav>li>a:hover{
+     background:red !important;
+}
+.carousel-inner>.item img{
+    width:100%;
+    height:400px;
+}

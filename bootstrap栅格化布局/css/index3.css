@@ -1,0 +1,296 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#f5f8fa;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+header .navbar-default{
+    background: #3097d1;
+}
+.navbar-brand>img{
+    height: 23px;
+}
+.navbar-default{
+    color:#fff;
+    background-color: #2578a7;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#d1e8f4;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #2578a7;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:#fff;
+    background-color: #2578a7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fbfbfb;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #0069a5;
+}
+.navbar{
+    border-radius:0;
+}
+.user{
+    border-radius:4px;
+    border:1px solid #d3e0e9;
+    background:#fff;
+    margin-bottom: 30px;
+}
+.user .user-top{
+    background:url("../images/iceland.jpg");
+    background-size:cover;/*让图片显示完整*/
+    height: 149px;
+}
+.user .user-bottom{
+    margin-top: -50px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.user .user-bottom img{
+    width:94px;
+    height:94px;
+    border-radius:50%;
+    border:3px solid #fff;
+    margin-bottom:7px;
+}
+.user .user-bottom h3{
+    font-size:18px;
+    margin-top:0;
+    margin-bottom:14px;
+}
+.user .user-bottom p{
+    font-size:16px;
+    margin-bottom:30px;
+}
+.about{
+    border:1px solid #d3e0e9;
+    border-radius:4px;
+    background:#fff;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.about h3{
+    font-size:18px;
+    margin-top:0;
+    margin-bottom:14px;
+}
+.about li{
+    margin-bottom:7px;
+}
+.photos{
+    border:1px solid #d3e0e9;
+    border-radius:4px;
+    background:#fff;
+    padding: 15px;
+    font-size:16px;
+}
+.photos h3{
+    font-size:18px;
+}
+.photos img{
+    width: 100%;
+    padding-bottom:10px;
+}
+.photos .row{
+    margin-left:-5px;
+    margin-right:-5px;
+}
+.photos .col-md-6{
+    padding-left:5px;
+    padding-right:5px;
+}
+section{
+    padding-bottom:100px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom:70px;
+}
+.dava{
+    border:1px solid #d3e0e9;
+    border-radius:4px 4px 0 0;
+    padding:15px;
+    background:#fff;
+}
+.dava h3{
+    font-size:18px;
+    display: inline-block;
+}
+.dava a p{
+    display: inline-block;
+    color:#afb1cb;
+    float: right;
+    padding-top:15px;
+}
+a::after{
+    display: table;
+    content:"";
+    clear:both;
+}
+.dava .row img{
+    width: 100%;
+    height: 220px;
+}
+.dava .row{
+    margin-left:-5px;
+    margin-right: -5px;
+    margin-bottom:20px;
+}
+.dava .row .col-md-6 {
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom:15px;
+}
+.dava2{
+    border:1px solid #d3e0e9;
+    border-top:0;
+    padding:15px;
+    padding-top:10px;
+    background:#fff;
+}
+.dava2 h3{
+    font-size:18px;
+    display: inline-block;
+}
+.dava2 a p{
+    display: inline-block;
+    color:#afb1cb;
+    float: right;
+    padding-top:15px;
+}
+a::after{
+    display: table;
+    content:"";
+    clear:both;
+}
+.dava3{
+    border:1px solid #d3e0e9;
+    border-top:0;
+    border-radius:0 0 4px 4px;
+    padding:15px;
+    padding-top:10px;
+    background:#fff;
+}
+.dava3 img{
+    height: 526px;
+    margin-bottom:30px;
+}
+@media (max-width:600px) {
+    .dava3 img{
+        width: 100%;
+    }
+}
+.dava3 h3{
+    font-size:18px;
+    display: inline-block;
+}
+.dava3 a p{
+    display: inline-block;
+    color:#afb1cb;
+    float: right;
+    padding-top:15px;
+}
+
+.col-md-3 .section_right{
+    border:1px solid #d3e0e9;
+    border-radius:4px;
+    padding:15px;
+    margin-bottom:35px;
+    background:#fff;
+}
+.section_right h3{
+    font-size:18px;
+}
+.section_right img{
+    width: 100%;
+    height: 220px;
+    margin-bottom:10px;
+
+}
+.section_right p{
+    margin: 0;
+}
+.section_right .text{
+    margin-bottom:10px;
+}
+.section_right a:hover{
+    text-decoration:none;
+    background:#2a88bd;
+    color: #fff;
+}
+.section_right a{
+    border:1px solid #2a88bd;
+    padding:9px 7px;
+    display:inline-block;
+    border-radius:4px;
+}
+
+.Likes{
+    border:1px solid #d3e0e9;
+    border-radius:4px 4px 0 0;
+    padding:15px;
+    background:#fff;
+}
+.Likes img{
+    width: 100%;
+    border-radius: 50%;
+    border-bottom:15px;
+}
+.Likes p small{
+    color:#ccc;
+}
+.Likes a{
+    text-decoration:none;
+    padding:5px 11px;
+    border:1px solid #2aabd2;
+    border-radius:4px;
+    display:inline-block;
+}
+.Likes-bottom{
+    border:1px solid #d3e0e9;
+    border-top:0;
+    border-radius:0 0 4px 4px;
+    padding:15px;
+}
+.Likes .row a i{
+    background: url("../images/user1.png");
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+}
+.Likes .row a:hover i{
+    background: url("../images/user2.png");
+}
+.Likes .row a:hover{
+    background:#2aabd2;
+    color:#fff;
+}
+
+footer .container{
+    text-align: center;
+    margin-bottom:50px;
+}
+footer .container small{
+    color:#3097d1;
+}
+footer .container ul li{
+    display: inline-block;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+footer ul::after{
+    display: table;
+    content:"";
+    clear:both;
+}
