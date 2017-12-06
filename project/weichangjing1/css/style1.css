@@ -39,33 +39,31 @@ body {
     height: 100%;
     position: relative;
 }
+.s1 .header img{
+    position: absolute;
+}
 .s1 .header img:nth-of-type(1){
     width: 30px;
-    position: absolute;
-    top:126px;
-    left: 50px;
+    top:127px;
+    left: 51px;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
-    position: absolute;
     top:90px;
     right:37px;
 }
 .s1 .header img:nth-of-type(3){
     width: 50px;
-    position : absolute;
-    bottom:187px;
+    bottom:186px;
     left:34px;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
-    position: absolute;
-    bottom:214px;
+    bottom:211px;
     right: 50px;
 }
 .s1 .header img:nth-of-type(5){
     width:70%;
-    position: absolute;
     left:50%;
     top:25%;
     margin-left:-35%;
