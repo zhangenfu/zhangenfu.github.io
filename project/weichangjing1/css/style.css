@@ -96,9 +96,36 @@ body {
     margin: auto;
     color: #000;
     font-weight: bold;
+    font-size: 16px;
     background-size:contain;
 }
 
+
+/*第一屏footer部分*/
+.s1 .footer{
+    color:#00d7b2;
+    position: absolute;
+    width: 100%;
+    bottom:0;
+}
+.s1 .footer p:nth-of-type(2){
+    margin-left: 35px;
+}
+.s1 .footer p:nth-of-type(3){
+    height: 70px;
+}
+.s1 .footer img{
+    position: absolute;
+    height: 70px;
+}
+.s1 .footer img:nth-of-type(1){
+    position: absolute;
+    left: 0;
+}
+.s1 .footer img:nth-of-type(2){
+    position: absolute;
+    left: -90px;
+}
 
 
 
