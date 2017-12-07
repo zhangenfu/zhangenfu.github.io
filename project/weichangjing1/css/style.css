@@ -131,96 +131,84 @@ body {
 
 
 /*第二屏的样式*/
-.s2 {
+.s2{
     color: #00f8ca;
 }
-
-.s2 h2 {
+.s2 h2{
     font-size: 26px;
     position: relative;
-    top: 12%;
+    top:12%;
 }
-
-.s2 small {
+.s2 small{
     margin-top: 10px;
     display: block;
     font-size: 14px;
     letter-spacing: 5px;
 }
-
-.s2 h2::before,
-.s2 h2::after {
+.s2 h2::after,
+.s2 h2::before{
     content: "";
     width: 80px;
     height: 20px;
     display: inline-block;
     position: absolute;
 }
-
-.s2 h2::before {
-    background: url(../img/14.png);
+.s2 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s2 h2::before{
+    background: url("../img/14.png");
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
 }
-
-.s2 h2::after {
-    background: url(../img/13.png);
-    background-size: contain;
-    margin-left: 66px;
-    margin-top: 10px;
-    top: 0;
-}
-
-.s2 div {
-    position: absolute;
-    top: 25%;
-    width: 80%;
-    height: 57%;
-    left: 50%;
-    margin-left: -40%;
-
-}
-
-.s2 div img {
+.s2 div img{
     width: 100%;
     position: absolute;
     height: 100%;
     left: 0;
 }
-
-.s2 div p {
-    text-align: left;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 14px;
-    line-height: 1.5em;
-    margin-bottom: 10px;
+.s2 div{
+    width: 80%;
+    height: 57%;
+    position: absolute;
+    top: 25%;
+    left:50%;
+    margin-left: -40%;
 }
 
-.s2 div p:nth-of-type(1) {
+.s2 div p{
+    text-align: left;
+    font-size: 14px;
+    padding-left:10% ;
+    padding-right:10% ;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+
+}
+.s2 div p:nth-of-type(1){
     padding-top: 20px;
 }
-
-.s2 div span {
+.s2 div span{
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    line-height: 25px;
+    display: inline-block;
     /*渐变色*/
     background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
     background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
     background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
     background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
-    width: 120px;
-    height: 25px;
-    border-radius: 10px;
-    color: #000000;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 25px;
-    display: inline-block;
     position: absolute;
     bottom: -10px;
     left: 50%;
     margin-left: -60px;
 }
-
-
-
