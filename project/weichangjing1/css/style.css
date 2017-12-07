@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -83,6 +88,15 @@ body {
 }
 .s1 .main p{
     color:#fff;
+}
+.s1 .main .img9{
+    background: url("../img/9.png");
+    width: 207px;
+    height: 24px;
+    margin: auto;
+    color: #000;
+    font-weight: bold;
+    background-size:contain;
 }
 
 
