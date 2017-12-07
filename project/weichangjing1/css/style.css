@@ -39,7 +39,8 @@ body {
 
 
 /*.si第一屏样式  开始*/
-.s1{
+.s1,
+.s2{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -125,6 +126,20 @@ body {
 .s1 .footer img:nth-of-type(2){
     position: absolute;
     left: -90px;
+}
+
+
+
+/*.s2第二屏样式  开始*/
+.s2 h2{
+    padding-top: 20px;
+    color: #00f2c3;
+}
+.s2 h2 small{
+    display:block;
+    font-size:14px;
+    letter-spacing:7px;
+
 }
 
 
