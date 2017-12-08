@@ -8,6 +8,9 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
 
+    <!--animate css动画样式链接-->
+    <link rel="stylesheet" href="css/animate.min.css">
+
     <!-- Demo styles -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="Shortcut Icon" href="img/cc.ico" type="image/x-icon">
@@ -20,23 +23,23 @@
         <div class="swiper-slide">
             <div class="s1">
                 <div class="header">
-                    <img src="img/1.png">
-                    <img src="img/2.png">
-                    <img src="img/3.png">
-                    <img src="img/4.png">
-                    <img src="img/6.png">
+                    <img class="ani" swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.4s" src="img/1.png">
+                    <img class="ani" swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.3s" src="img/2.png">
+                    <img class="ani" swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.4s" src="img/3.png">
+                    <img class="ani" swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.4s" src="img/4.png">
+                    <img class="ani" swiper-animate-effect="pulse" swiper-animate-duration="2s" swiper-animate-delay="0.5s" src="img/6.png">
                 </div>
                 <div class="main">
-                    <img src="img/7.png">
-                    <img src="img/8.png">
-                    <p class="img9">梦想起航.再创辉煌</p>
+                    <img class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.9s" swiper-animate-delay="0.7s" src="img/7.png">
+                    <img class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s" src="img/8.png">
+                    <p class="ani img9" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">梦想起航.再创辉煌</p>
                 </div>
                 <div class="footer">
-                    <p>企业名称</p>
-                    <p>2018年1月18日晚8:00-11:00</p>
+                    <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">企业名称</p>
+                    <p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">2018年1月18日晚8:00-11:00</p>
                     <p>
                         <img src="img/10.png">
-                        <img src="img/11.png">
+                        <img class="ani" swiper-animate-effect="shake" swiper-animate-duration="12s" swiper-animate-delay="0.5s" src="img/11.png">
                     </p>
                 </div>
             </div>
@@ -62,7 +65,11 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide">2</div>
+        <div class="swiper-slide">
+            <div class="s3">
+
+            </div>
+        </div>
         <div class="swiper-slide">3</div>
         <div class="swiper-slide">4</div>
         <div class="swiper-slide">5</div>
@@ -77,6 +84,8 @@
 <!-- Swiper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>
 
+<!--animate JS动画样式链接-->
+<script rel="stylesheet" src="js/swiper.animate1.0.2.min.js"></script>
 <!-- Initialize Swiper -->
 <script src="js/script.js"></script>
 </body>

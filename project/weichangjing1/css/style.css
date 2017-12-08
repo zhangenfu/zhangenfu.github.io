@@ -40,7 +40,8 @@ body {
 
 /*.si第一屏样式  开始*/
 .s1,
-.s2{
+.s2,
+.s3{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -52,27 +53,33 @@ body {
     width: 30px;
     top:129px;
     left: 51px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
     top:90px;
     right:37px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 50px;
     bottom:186px;
     left:34px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     bottom:211px;
     right: 50px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(5){
     width:70%;
     left:50%;
     top:25%;
     margin-left:-35%;
+    animation: pulse infinite;
+
 }
 
 
@@ -126,6 +133,7 @@ body {
 .s1 .footer img:nth-of-type(2){
     position: absolute;
     left: -90px;
+    animation:shake infinite;
 }
 
 
