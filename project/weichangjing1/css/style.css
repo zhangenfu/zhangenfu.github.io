@@ -225,7 +225,7 @@ body {
 
 .s2 div p{
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     padding-left:10% ;
     padding-right:10% ;
     margin-bottom: 10px;
@@ -292,45 +292,59 @@ body {
     margin-left: -95px;
     margin-top: 10px;
 }
+.s3 div{
+    width: 80%;
+    height: 55%;
+    position: absolute;
+    left:49%;
+    margin-left: -40%;
+    /*background: red;*/
+}
 .s3 div .img1{
-    width: 221px;
-    height: 218px;
+    width: 65%;
+    height: 50%;
     position: absolute;
-    top:210px;
-    right:79px;
+    top:60%;
+    left:21%;
 }
-.s3 div .img2{
-    width: 251px;
-    height: 251px;
+.s3 div img:nth-of-type(2){
+    width: 75%;
+    height:59%;
     position: absolute;
-    top:194px;
-    right:65px;
+    top:55%;
+    left:16%;
 }
-.s3 div .img3{
-    width: 283px;
-    height: 283px;
+.s3 div img:nth-of-type(3){
+    width: 85%;
+    height:70%;
     position: absolute;
-    top:178px;
-    right:49px;
+    top:50%;
+    left:11%;
+}
+.s3 div img:nth-of-type(4){
+    width: 95%;
+    height:80%;
+    position: absolute;
+    top:45%;
+    left:6%;
+}
+.s3 div img:nth-of-type(5){
+    width:59%;
+    height:53%;
+    position: absolute;
+    top:58%;
+    left:24%;
     animation: dian 7s infinite linear running;
 }
-.s3 div .img4{
-    width: 313px;
-    height: 313px;
+.s3 div img:nth-of-type(6){
+    width:87%;
+    height:84%;
     position: absolute;
-    top:163px;
-    right:34px;
+    top:43%;
+    left:10%;
+    animation: dian 7s infinite linear running;
 }
 
-.s3 div .img5{
-    width: 202px;
-    height: 230px;
-    position: absolute;
-    top: 204px;
-    right: 89px;
-    transform: rotateZ(30deg);
-    animation: dian 7s infinite linear running;
-}
 @keyframes dian{
     from {
         transform: rotateZ(0deg);
@@ -339,22 +353,100 @@ body {
         transform: rotateZ(360deg);
     }
 }
-.s3 div .img6{
-    width: 287px;
-    height: 328px;
+.s3 .p1{
     position: absolute;
-    top: 156px;
-    right: 47px;
-    transform: rotateZ(0deg);
-    animation: dian 7s infinite linear running;
+    top:80%;
+    left: 41%;
 }
-.s3 div p{
+.s3 .p1 .img7{
     position: absolute;
-    top: 45%;
-    right:40%;
+    top:-180%;
+    left: -30%;
+    animation:pulse infinite;
 }
-.s3 div .img7{
+.s3 .p2{
     position: absolute;
-    top: -43px;
-    right:-32%;
+    top:52%;
+    left:30%;
 }
+.s3 .p2 .img8{
+    width: 60px;
+    position: absolute;
+    top:-70%;
+    left: -35%;
+}
+.s3 .p3{
+    position: absolute;
+    top:52%;
+    right: 20%;
+}
+.s3 .p3 .img9{
+    width: 60px;
+    position: absolute;
+    top:-70%;
+    left: -35%;
+}
+.s3 .p4{
+    position: absolute;
+    bottom:12%;
+    left: 8%;
+}
+.s3 .p4 .img10{
+    width: 60px;
+    position: absolute;
+    top:-70%;
+    left: -35%;
+}
+.s3 .p5{
+    position: absolute;
+    bottom:-17%;
+    left: 30%;
+}
+.s3 .p5 .img11{
+    width: 60px;
+    position: absolute;
+    top:-70%;
+    left: -35%;
+}
+.s3 .p6{
+    position: absolute;
+    bottom:13%;
+    right: 1%;
+}
+.s3 .p6 .img12{
+    width: 60px;
+    position: absolute;
+    bottom:-80%;
+    right: -35%;
+}
+.s3 .p7{
+    position: absolute;
+    bottom:-16%;
+    right: 20%;
+}
+.s3 .p7 .img13{
+    width: 60px;
+    position: absolute;
+    bottom:-70%;
+    right: -35%;
+}
+.s3 .p8{
+    width: 1%;
+    height: 7%;
+    background:#00f4cc;
+    position: absolute;
+    bottom:10%;
+    left: 15%;
+}
+.s3 .p9{
+    width: 57%;
+    font-size: 12px;
+    text-align: left;
+    line-height:30px;
+    position: absolute;
+    bottom: 10%;
+    left: 18%;
+}
+
+
+
