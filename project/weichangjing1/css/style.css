@@ -254,3 +254,107 @@ body {
     left: 50%;
     margin-left: -60px;
 }
+
+
+/*第三屏开始*/
+.s3{
+    color: #00f8ca;
+}
+.s3 h2{
+    font-size: 26px;
+    position: relative;
+    top:12%;
+}
+.s3 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s3 h2::after,
+.s3 h2::before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s3 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s3 h2::before{
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.s3 div .img1{
+    width: 221px;
+    height: 218px;
+    position: absolute;
+    top:210px;
+    right:79px;
+}
+.s3 div .img2{
+    width: 251px;
+    height: 251px;
+    position: absolute;
+    top:194px;
+    right:65px;
+}
+.s3 div .img3{
+    width: 283px;
+    height: 283px;
+    position: absolute;
+    top:178px;
+    right:49px;
+    animation: dian 7s infinite linear running;
+}
+.s3 div .img4{
+    width: 313px;
+    height: 313px;
+    position: absolute;
+    top:163px;
+    right:34px;
+}
+
+.s3 div .img5{
+    width: 202px;
+    height: 230px;
+    position: absolute;
+    top: 204px;
+    right: 89px;
+    transform: rotateZ(30deg);
+    animation: dian 7s infinite linear running;
+}
+@keyframes dian{
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.s3 div .img6{
+    width: 287px;
+    height: 328px;
+    position: absolute;
+    top: 156px;
+    right: 47px;
+    transform: rotateZ(0deg);
+    animation: dian 7s infinite linear running;
+}
+.s3 div p{
+    position: absolute;
+    top: 45%;
+    right:40%;
+}
+.s3 div .img7{
+    position: absolute;
+    top: -43px;
+    right:-32%;
+}
