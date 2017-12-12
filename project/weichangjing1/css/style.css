@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+li{
+    list-style: none;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -25,12 +28,18 @@ body {
     background: #fff;
 }
 .swiper-button-next{
+    /*改变箭头大小*/
+    width: 17px;
+    height: 30px;
+    background-size: contain;
+
+
     left:50%;
     bottom:5%;
     right:auto;
     top:auto;
     margin-left:-13.5px;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
 /*音乐按钮的样式*/
@@ -75,7 +84,10 @@ body {
 /*.si第一屏样式  开始*/
 .s1,
 .s2,
-.s3{
+.s3,
+.s4,
+.s5,
+.s6{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -114,6 +126,11 @@ body {
     margin-left:-35%;
     animation: pulse infinite;
 
+}
+/*让星球在中心开始动*/
+.swing {
+
+    transform-origin: center;
 }
 
 
@@ -163,6 +180,16 @@ body {
 .s1 .footer img:nth-of-type(1){
     position: absolute;
     left: 0;
+    animation:footerimg 2s infinite alternate;
+}
+@keyframes footerimg {
+    0%{
+        left:0;
+    }
+    100%{
+        left:20px;
+    }
+
 }
 .s1 .footer img:nth-of-type(2){
     position: absolute;
@@ -173,15 +200,24 @@ body {
 
 
 /*第二屏的样式*/
-.s2{
+.s2,
+.s4,
+.s5,
+.s6{
     color: #00f8ca;
 }
-.s2 h2{
+.s2 h2,
+.s4 h2,
+.s5 h2,
+.s6 h2{
     font-size: 26px;
     position: relative;
     top:12%;
 }
-.s2 small{
+.s2 small,
+.s4 small,
+.s5 small,
+.s6 small{
     margin-top: 10px;
     display: block;
     font-size: 14px;
@@ -448,5 +484,286 @@ body {
     left: 18%;
 }
 
+/*第四屏样式开始*/
+.s4 h2::after,
+.s4 h2::before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s4 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s4 h2::before{
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.s4 div{
+    width: 80%;
+    height: 57%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -40%;
+}
+.s4 div .img1{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+.s4 div .p1{
+    position: absolute;
+    left: 30%;
+    top: 6%;
+}
+.s4 div .p1 img{
+    position: absolute;
+    top:-80%;
+    right: 100%;
+}
+.s4 div .p2{
+    position: absolute;
+    right: 20%;
+    top: 6%;
+    color: #03c7f7;
+}
+.s4 div .p2 img{
+    position: absolute;
+    top:-80%;
+    right: 100%;
+}
+.s4 div .p3{
+    position: absolute;
+    left:0;
+    top: 18%;
+}
+.s4 div ul li .p3 img,
+.s4 div ul li .p6 img,
+.s4 div ul li .p9 img{
+    width:10%;
+}
+.s4 div .p3 span,
+.s4 div .p6 span,
+.s4 div .p9 span{
+    color: #fff;
+}
+.s4 div ul li .p4{
+    position: absolute;
+    left:0;
+    top: 25%;
+}
+.s4 div .p4 img{
+    width:80%;
+}
+.s4 div ul li .p5{
+    position: absolute;
+    top: 30%;
+    text-align: left;
+}
+.s4 div ul li .p5 img{
+    width:45%;
+}
+.s4 div ul li:nth-of-type(1),
+.s4 div ul li:nth-of-type(2),
+.s4 div ul li:nth-of-type(3){
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
+.s4 div ul li .p6{
+     position: absolute;
+     top:42%;
+ }
+.s4 div ul li .p7{
+    position: absolute;
+    top:48%;
+    text-align: left;
+}
+.s4 div ul li .p7 img{
+    width: 70%;
+}
+.s4 div ul li .p8{
+    position: absolute;
+    top:53%;
+    text-align: left;
+}
+.s4 div ul li .p8 img{
+    width: 40%;
+}
+.s4 div ul li .p9{
+    position: absolute;
+    top:66%;
+}
+.s4 div ul li .p10{
+    text-align: left;
+    position: absolute;
+    top:72%;
+}
+.s4 div ul li .p10 img{
+    width: 50%;
+}
+.s4 div ul li .p11{
+    text-align: left;
+    position: absolute;
+    top:76%;
+}
+.s4 div ul li .p11 img{
+    width: 30%;
+}
+.s4 div .text{
+    font-size: 12px;
+    width: 80%;
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+}
+
+/*第五屏样式开始*/
+.s5 h2::after,
+.s5 h2::before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s5 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s5 h2::before{
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.s5 div .top{
+    width: 80%;
+    height: 57%;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    margin-left: -40%;
+}
+.s5 div .top .img1,
+.s5 div .top .img4{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+}
+.s5 div .top .img2,
+.s5 div .top .img3{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right:-10%;
+}
+.s5 div .top .img3{
+     width: 50%;
+     height: 50%;
+     position: absolute;
+     right:-10%;
+ }
 
 
+.s5 div .bottom{
+    width: 80%;
+    height: 57%;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    margin-left: -40%;
+}
+.s5 div .bottom .img5,
+.s5 div .bottom .img7{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom:-10%;
+}
+.s5 div .bottom .img6,
+.s5 div .bottom .img8{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: -10%;
+    bottom:-10%;
+}
+
+/*第六屏样式开始*/
+.s6 h2::after,
+.s6 h2::before{
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s6 h2::after{
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top:0;
+}
+.s6 h2::before{
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.s6 div{
+     width: 80%;
+     height: 57%;
+     position: absolute;
+     top:20%;
+     left: 5%;
+ }
+.s6 div .img1{
+    width: 1px;
+    position: absolute;
+    top:13%;
+    left:9%;
+}
+.s6 div .img2{
+    position: absolute;
+    top:6%;
+    left:0;
+}
+.s6 div .img3{
+    position: absolute;
+    top:43%;
+    left:0;
+}
+.s6 div .img4{
+    position: absolute;
+    top:77%;
+    left:0;
+}
+.s6 div .p1{
+    position: absolute;
+    top:0;
+    left:30%;
+    font-size: 14px;
+}
+.s6 div .img5{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:20%;
+}
