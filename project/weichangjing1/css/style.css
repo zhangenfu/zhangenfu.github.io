@@ -727,43 +727,50 @@ body {
     margin-left: -95px;
     margin-top: 10px;
 }
-.s6 div{
+.s6 #dv1{
      width: 80%;
      height: 57%;
      position: absolute;
      top:20%;
      left: 5%;
  }
-.s6 div .img1{
+.s6 #dv1 .img1{
     width: 1px;
     position: absolute;
     top:13%;
     left:9%;
 }
-.s6 div .img2{
+.s6 #dv1 .img2{
     position: absolute;
     top:6%;
     left:0;
 }
-.s6 div .img3{
+.s6 #dv1 .img3{
     position: absolute;
     top:43%;
     left:0;
 }
-.s6 div .img4{
+.s6 #dv1 .img4{
     position: absolute;
     top:77%;
     left:0;
 }
-.s6 div .p1{
-    position: absolute;
-    top:0;
-    left:30%;
-    font-size: 14px;
+.s6 #dv1 div{
+    width: 100%;
+    position:relative;
+    top:8%;
+    left:2%;
 }
-.s6 div .img5{
+.s6 #dv1 div .p1{
+    width: 100%;
+    position:absolute;
+    left:0%;
+    top:5%;
+    color: #000;
+    font-size: 20px;
+}
+.s6 #dv1 div .img5{
     width: 100%;
     position: absolute;
-    top:0;
-    left:20%;
+    left:15%;
 }
