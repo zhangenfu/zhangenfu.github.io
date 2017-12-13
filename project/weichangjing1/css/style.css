@@ -103,30 +103,30 @@ body {
 }
 
 .s1 .header img:nth-of-type(1) {
-    width: 30px;
-    top: 129px;
+    width: 10%;
+    top: 16%;
     left: 51px;
     animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(2) {
-    width: 60px;
-    top: 90px;
-    right: 37px;
+    width: 20%;
+    top: 10%;
+    right: 15%;
     animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(3) {
-    width: 50px;
-    bottom: 150px;
-    left: 34px;
+    width: 15%;
+    bottom: 21%;
+    left: 10%;
     animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(4) {
-    width: 50px;
-    bottom: 180px;
-    right: 50px;
+    width: 14%;
+    bottom: 25%;
+    right: 15%;
     animation: swing infinite;
 }
 
@@ -1117,7 +1117,7 @@ body {
     background: #00f2ca;
     color: #fff;
     position: absolute;
-    bottom:30%;
+    bottom:35%;
     left:5%;
 }
 .s7 #dv .p1{
