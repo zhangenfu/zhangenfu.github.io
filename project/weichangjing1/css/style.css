@@ -1,44 +1,49 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
-li{
+
+li {
     list-style: none;
 }
+
 html, body {
     position: relative;
     height: 100%;
 }
+
 body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color:#000;
+    color: #000;
     margin: 0;
     padding: 0;
 }
+
 .swiper-container {
     width: 100%;
     height: 100%;
 }
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
 }
-.swiper-button-next{
+
+.swiper-button-next {
     /*改变箭头大小*/
     width: 17px;
     height: 30px;
     background-size: contain;
 
-
-    left:50%;
-    bottom:5%;
-    right:auto;
-    top:auto;
-    margin-left:-13.5px;
+    left: 50%;
+    bottom: 5%;
+    right: auto;
+    top: auto;
+    margin-left: -13.5px;
     transform: rotate(-90deg);
 }
 
@@ -80,75 +85,85 @@ body {
     width: 15px;
 }
 
-
 /*.si第一屏样式  开始*/
 .s1,
 .s2,
 .s3,
 .s4,
 .s5,
-.s6{
+.s6,
+.s7{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
 }
-.s1 .header img{
+
+.s1 .header img {
     position: absolute;
 }
-.s1 .header img:nth-of-type(1){
+
+.s1 .header img:nth-of-type(1) {
     width: 30px;
-    top:129px;
+    top: 129px;
     left: 51px;
     animation: swing infinite;
 }
-.s1 .header img:nth-of-type(2){
+
+.s1 .header img:nth-of-type(2) {
     width: 60px;
-    top:90px;
-    right:37px;
+    top: 90px;
+    right: 37px;
     animation: swing infinite;
 }
-.s1 .header img:nth-of-type(3){
+
+.s1 .header img:nth-of-type(3) {
     width: 50px;
-    bottom:186px;
-    left:34px;
+    bottom: 186px;
+    left: 34px;
     animation: swing infinite;
 }
-.s1 .header img:nth-of-type(4){
+
+.s1 .header img:nth-of-type(4) {
     width: 50px;
-    bottom:211px;
+    bottom: 211px;
     right: 50px;
     animation: swing infinite;
 }
-.s1 .header img:nth-of-type(5){
-    width:70%;
-    left:50%;
-    top:25%;
-    margin-left:-35%;
+
+.s1 .header img:nth-of-type(5) {
+    width: 70%;
+    left: 50%;
+    top: 25%;
+    margin-left: -35%;
     animation: pulse infinite;
 
 }
+
 /*让星球在中心开始动*/
 .swing {
 
     transform-origin: center;
 }
 
-
 /*.s1第一屏文字部分*/
-.s1 .main{
+.s1 .main {
     position: absolute;
     top: 30%;
 }
-.s1 .main img:nth-of-type(1){
-      width: 40%;
+
+.s1 .main img:nth-of-type(1) {
+    width: 40%;
 }
-.s1 .main img:nth-of-type(2){
+
+.s1 .main img:nth-of-type(2) {
     width: 80%;
 }
-.s1 .main p{
-    color:#fff;
+
+.s1 .main p {
+    color: #fff;
 }
-.s1 .main .img9{
+
+.s1 .main .img9 {
     background: url("../img/9.png");
     width: 207px;
     height: 24px;
@@ -156,122 +171,137 @@ body {
     color: #000;
     font-weight: bold;
     font-size: 16px;
-    background-size:contain;
+    background-size: contain;
 }
-
 
 /*第一屏footer部分*/
-.s1 .footer{
-    color:#00d7b2;
+.s1 .footer {
+    color: #00d7b2;
     position: absolute;
     width: 100%;
-    bottom:0;
+    bottom: 0;
 }
-.s1 .footer p:nth-of-type(2){
+
+.s1 .footer p:nth-of-type(2) {
     margin-left: 35px;
 }
-.s1 .footer p:nth-of-type(3){
+
+.s1 .footer p:nth-of-type(3) {
     height: 70px;
 }
-.s1 .footer img{
+
+.s1 .footer img {
     position: absolute;
     height: 70px;
 }
-.s1 .footer img:nth-of-type(1){
+
+.s1 .footer img:nth-of-type(1) {
     position: absolute;
     left: 0;
-    animation:footerimg 2s infinite alternate;
+    animation: footerimg 2s infinite alternate;
 }
+
 @keyframes footerimg {
-    0%{
-        left:0;
+    0% {
+        left: 0;
     }
-    100%{
-        left:20px;
+    100% {
+        left: 20px;
     }
 
 }
-.s1 .footer img:nth-of-type(2){
+
+.s1 .footer img:nth-of-type(2) {
     position: absolute;
     left: -90px;
-    animation:shake infinite;
+    animation: shake infinite;
 }
-
-
 
 /*第二屏的样式*/
 .s2,
 .s4,
 .s5,
-.s6{
+.s6,
+.s7{
     color: #00f8ca;
 }
+
 .s2 h2,
 .s4 h2,
 .s5 h2,
-.s6 h2{
+.s6 h2,
+.s7 h2{
     font-size: 26px;
     position: relative;
-    top:12%;
+    top: 12%;
 }
+
 .s2 small,
 .s4 small,
 .s5 small,
-.s6 small{
+.s6 small,
+.s7 small{
     margin-top: 10px;
     display: block;
     font-size: 14px;
     letter-spacing: 5px;
 }
+
 .s2 h2::after,
-.s2 h2::before{
+.s2 h2::before {
     content: "";
     width: 80px;
     height: 20px;
     display: inline-block;
     position: absolute;
 }
-.s2 h2::after{
+
+.s2 h2::after {
     background: url("../img/13.png");
     background-size: contain;
     margin-left: 66px;
     margin-top: 10px;
-    top:0;
+    top: 0;
 }
-.s2 h2::before{
+
+.s2 h2::before {
     background: url("../img/14.png");
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
 }
-.s2 div img{
+
+.s2 div img {
     width: 100%;
     position: absolute;
     height: 100%;
     left: 0;
 }
-.s2 div{
+
+.s2 div {
     width: 80%;
     height: 57%;
     position: absolute;
     top: 25%;
-    left:50%;
+    left: 50%;
     margin-left: -40%;
 }
 
-.s2 div p{
+.s2 div p {
     text-align: left;
     font-size: 12px;
-    padding-left:10% ;
-    padding-right:10% ;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 10px;
     line-height: 1.5em;
 
 }
-.s2 div p:nth-of-type(1){
+
+.s2 div p:nth-of-type(1) {
     padding-top: 20px;
 }
-.s2 div span{
+
+.s2 div span {
     width: 120px;
     height: 25px;
     border-radius: 10px;
@@ -291,97 +321,108 @@ body {
     margin-left: -60px;
 }
 
-
 /*第三屏开始*/
-.s3{
+.s3 {
     color: #00f8ca;
 }
-.s3 h2{
+
+.s3 h2 {
     font-size: 26px;
     position: relative;
-    top:12%;
+    top: 12%;
 }
-.s3 small{
+
+.s3 small {
     margin-top: 10px;
     display: block;
     font-size: 14px;
     letter-spacing: 5px;
 }
+
 .s3 h2::after,
-.s3 h2::before{
+.s3 h2::before {
     content: "";
     width: 80px;
     height: 20px;
     display: inline-block;
     position: absolute;
 }
-.s3 h2::after{
+
+.s3 h2::after {
     background: url("../img/13.png");
     background-size: contain;
     margin-left: 66px;
     margin-top: 10px;
-    top:0;
+    top: 0;
 }
-.s3 h2::before{
+
+.s3 h2::before {
     background: url("../img/14.png");
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
 }
-.s3 div{
+
+.s3 div {
     width: 80%;
     height: 55%;
     position: absolute;
-    left:49%;
+    left: 49%;
     margin-left: -40%;
     /*background: red;*/
 }
-.s3 div .img1{
+
+.s3 div .img1 {
     width: 65%;
     height: 50%;
     position: absolute;
-    top:60%;
-    left:21%;
+    top: 60%;
+    left: 21%;
 }
-.s3 div img:nth-of-type(2){
+
+.s3 div img:nth-of-type(2) {
     width: 75%;
-    height:59%;
+    height: 59%;
     position: absolute;
-    top:55%;
-    left:16%;
+    top: 55%;
+    left: 16%;
 }
-.s3 div img:nth-of-type(3){
+
+.s3 div img:nth-of-type(3) {
     width: 85%;
-    height:70%;
+    height: 70%;
     position: absolute;
-    top:50%;
-    left:11%;
+    top: 50%;
+    left: 11%;
 }
-.s3 div img:nth-of-type(4){
+
+.s3 div img:nth-of-type(4) {
     width: 95%;
-    height:80%;
+    height: 80%;
     position: absolute;
-    top:45%;
-    left:6%;
+    top: 45%;
+    left: 6%;
 }
-.s3 div img:nth-of-type(5){
-    width:59%;
-    height:53%;
+
+.s3 div img:nth-of-type(5) {
+    width: 59%;
+    height: 53%;
     position: absolute;
-    top:58%;
-    left:24%;
-    animation: dian 7s infinite linear running;
-}
-.s3 div img:nth-of-type(6){
-    width:87%;
-    height:84%;
-    position: absolute;
-    top:43%;
-    left:10%;
+    top: 58%;
+    left: 24%;
     animation: dian 7s infinite linear running;
 }
 
-@keyframes dian{
+.s3 div img:nth-of-type(6) {
+    width: 87%;
+    height: 84%;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    animation: dian 7s infinite linear running;
+}
+
+@keyframes dian {
     from {
         transform: rotateZ(0deg);
     }
@@ -389,96 +430,112 @@ body {
         transform: rotateZ(360deg);
     }
 }
-.s3 .p1{
+
+.s3 .p1 {
     position: absolute;
-    top:80%;
+    top: 80%;
     left: 41%;
 }
-.s3 .p1 .img7{
+
+.s3 .p1 .img7 {
     position: absolute;
-    top:-180%;
+    top: -180%;
     left: -30%;
-    animation:pulse infinite;
+    animation: pulse infinite;
 }
-.s3 .p2{
+
+.s3 .p2 {
     position: absolute;
-    top:52%;
-    left:30%;
-}
-.s3 .p2 .img8{
-    width: 60px;
-    position: absolute;
-    top:-70%;
-    left: -35%;
-}
-.s3 .p3{
-    position: absolute;
-    top:52%;
-    right: 20%;
-}
-.s3 .p3 .img9{
-    width: 60px;
-    position: absolute;
-    top:-70%;
-    left: -35%;
-}
-.s3 .p4{
-    position: absolute;
-    bottom:12%;
-    left: 8%;
-}
-.s3 .p4 .img10{
-    width: 60px;
-    position: absolute;
-    top:-70%;
-    left: -35%;
-}
-.s3 .p5{
-    position: absolute;
-    bottom:-17%;
+    top: 52%;
     left: 30%;
 }
-.s3 .p5 .img11{
+
+.s3 .p2 .img8 {
     width: 60px;
     position: absolute;
-    top:-70%;
+    top: -70%;
     left: -35%;
 }
-.s3 .p6{
+
+.s3 .p3 {
     position: absolute;
-    bottom:13%;
-    right: 1%;
-}
-.s3 .p6 .img12{
-    width: 60px;
-    position: absolute;
-    bottom:-80%;
-    right: -35%;
-}
-.s3 .p7{
-    position: absolute;
-    bottom:-16%;
+    top: 52%;
     right: 20%;
 }
-.s3 .p7 .img13{
+
+.s3 .p3 .img9 {
     width: 60px;
     position: absolute;
-    bottom:-70%;
+    top: -70%;
+    left: -35%;
+}
+
+.s3 .p4 {
+    position: absolute;
+    bottom: 12%;
+    left: 8%;
+}
+
+.s3 .p4 .img10 {
+    width: 60px;
+    position: absolute;
+    top: -70%;
+    left: -35%;
+}
+
+.s3 .p5 {
+    position: absolute;
+    bottom: -17%;
+    left: 30%;
+}
+
+.s3 .p5 .img11 {
+    width: 60px;
+    position: absolute;
+    top: -70%;
+    left: -35%;
+}
+
+.s3 .p6 {
+    position: absolute;
+    bottom: 13%;
+    right: 1%;
+}
+
+.s3 .p6 .img12 {
+    width: 60px;
+    position: absolute;
+    bottom: -80%;
     right: -35%;
 }
-.s3 .p8{
+
+.s3 .p7 {
+    position: absolute;
+    bottom: -16%;
+    right: 20%;
+}
+
+.s3 .p7 .img13 {
+    width: 60px;
+    position: absolute;
+    bottom: -70%;
+    right: -35%;
+}
+
+.s3 .p8 {
     width: 1%;
     height: 7%;
-    background:#00f4cc;
+    background: #00f4cc;
     position: absolute;
-    bottom:10%;
+    bottom: 10%;
     left: 15%;
 }
-.s3 .p9{
+
+.s3 .p9 {
     width: 57%;
     font-size: 12px;
     text-align: left;
-    line-height:30px;
+    line-height: 30px;
     position: absolute;
     bottom: 10%;
     left: 18%;
@@ -486,27 +543,30 @@ body {
 
 /*第四屏样式开始*/
 .s4 h2::after,
-.s4 h2::before{
+.s4 h2::before {
     content: "";
     width: 80px;
     height: 20px;
     display: inline-block;
     position: absolute;
 }
-.s4 h2::after{
+
+.s4 h2::after {
     background: url("../img/13.png");
     background-size: contain;
     margin-left: 66px;
     margin-top: 10px;
-    top:0;
+    top: 0;
 }
-.s4 h2::before{
+
+.s4 h2::before {
     background: url("../img/14.png");
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
 }
-.s4 div{
+
+.s4 div {
     width: 80%;
     height: 57%;
     position: absolute;
@@ -514,113 +574,137 @@ body {
     left: 50%;
     margin-left: -40%;
 }
-.s4 div .img1{
+
+.s4 div .img1 {
     width: 100%;
     position: absolute;
     height: 100%;
     left: 0;
 }
-.s4 div .p1{
+
+.s4 div .p1 {
     position: absolute;
     left: 30%;
     top: 6%;
 }
-.s4 div .p1 img{
+
+.s4 div .p1 img {
     position: absolute;
-    top:-80%;
+    top: -80%;
     right: 100%;
 }
-.s4 div .p2{
+
+.s4 div .p2 {
     position: absolute;
     right: 20%;
     top: 6%;
     color: #03c7f7;
 }
-.s4 div .p2 img{
+
+.s4 div .p2 img {
     position: absolute;
-    top:-80%;
+    top: -80%;
     right: 100%;
 }
-.s4 div .p3{
+
+.s4 div .p3 {
     position: absolute;
-    left:0;
+    left: 0;
     top: 18%;
 }
+
 .s4 div ul li .p3 img,
 .s4 div ul li .p6 img,
-.s4 div ul li .p9 img{
-    width:10%;
+.s4 div ul li .p9 img {
+    width: 10%;
 }
+
 .s4 div .p3 span,
 .s4 div .p6 span,
-.s4 div .p9 span{
+.s4 div .p9 span {
     color: #fff;
 }
-.s4 div ul li .p4{
+
+.s4 div ul li .p4 {
     position: absolute;
-    left:0;
+    left: 0;
     top: 25%;
 }
-.s4 div .p4 img{
-    width:80%;
+
+.s4 div .p4 img {
+    width: 80%;
 }
-.s4 div ul li .p5{
+
+.s4 div ul li .p5 {
     position: absolute;
     top: 30%;
     text-align: left;
 }
-.s4 div ul li .p5 img{
-    width:45%;
+
+.s4 div ul li .p5 img {
+    width: 45%;
 }
+
 .s4 div ul li:nth-of-type(1),
 .s4 div ul li:nth-of-type(2),
-.s4 div ul li:nth-of-type(3){
+.s4 div ul li:nth-of-type(3) {
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0;
+    top: 0;
 }
-.s4 div ul li .p6{
-     position: absolute;
-     top:42%;
- }
-.s4 div ul li .p7{
+
+.s4 div ul li .p6 {
     position: absolute;
-    top:48%;
+    top: 42%;
+}
+
+.s4 div ul li .p7 {
+    position: absolute;
+    top: 48%;
     text-align: left;
 }
-.s4 div ul li .p7 img{
+
+.s4 div ul li .p7 img {
     width: 70%;
 }
-.s4 div ul li .p8{
+
+.s4 div ul li .p8 {
     position: absolute;
-    top:53%;
+    top: 53%;
     text-align: left;
 }
-.s4 div ul li .p8 img{
+
+.s4 div ul li .p8 img {
     width: 40%;
 }
-.s4 div ul li .p9{
+
+.s4 div ul li .p9 {
     position: absolute;
-    top:66%;
+    top: 66%;
 }
-.s4 div ul li .p10{
+
+.s4 div ul li .p10 {
     text-align: left;
     position: absolute;
-    top:72%;
+    top: 72%;
 }
-.s4 div ul li .p10 img{
+
+.s4 div ul li .p10 img {
     width: 50%;
 }
-.s4 div ul li .p11{
+
+.s4 div ul li .p11 {
     text-align: left;
     position: absolute;
-    top:76%;
+    top: 76%;
 }
-.s4 div ul li .p11 img{
+
+.s4 div ul li .p11 img {
     width: 30%;
 }
-.s4 div .text{
+
+.s4 div .text {
     font-size: 12px;
     width: 80%;
     position: absolute;
@@ -630,27 +714,30 @@ body {
 
 /*第五屏样式开始*/
 .s5 h2::after,
-.s5 h2::before{
+.s5 h2::before {
     content: "";
     width: 80px;
     height: 20px;
     display: inline-block;
     position: absolute;
 }
-.s5 h2::after{
+
+.s5 h2::after {
     background: url("../img/13.png");
     background-size: contain;
     margin-left: 66px;
     margin-top: 10px;
-    top:0;
+    top: 0;
 }
-.s5 h2::before{
+
+.s5 h2::before {
     background: url("../img/14.png");
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
 }
-.s5 div .top{
+
+.s5 div .top {
     width: 80%;
     height: 57%;
     position: absolute;
@@ -658,119 +745,385 @@ body {
     left: 47%;
     margin-left: -40%;
 }
-.s5 div .top .img1,
-.s5 div .top .img4{
-    width: 50%;
-    height: 50%;
+
+.s5 div .top .img1 {
+    width: 53%;
+    height: 53%;
     position: absolute;
     left: 0;
 }
-.s5 div .top .img2,
-.s5 div .top .img3{
+.s5 div .top .img4 {
     width: 50%;
     height: 50%;
     position: absolute;
-    right:-10%;
+    top:-2%;
+    left: 2%;
 }
-.s5 div .top .img3{
-     width: 50%;
-     height: 50%;
-     position: absolute;
-     right:-10%;
- }
+.s5 div .top .p1{
+    position: absolute;
+    top:43%;
+    left: 12%;
+    font-size: 14px;
+}
+.s5 div .top .p2{
+    width: 93px;
+    height: 20px;
+    background: url("../img/33.png");
+    background-size: contain;
+    position: absolute;
+    top:49%;
+    left: 12%;
+    font-size: 14px;
+    color: #000;
+}
+.s5 div .top .p3{
+    position: absolute;
+    top:43%;
+    right: 0;
+    font-size: 14px;
+}
+.s5 div .top .p4{
+    width: 93px;
+    height: 20px;
+    background: url("../img/33.png");
+    background-size: contain;
+    position: absolute;
+    top:49%;
+    right: 0;
+    font-size: 14px;
+    color: #000;
+}
+.s5 div .bottom .p5{
+    position: absolute;
+    bottom:-5%;
+    left: 12%;
+    font-size: 14px;
+}
+.s5 div .bottom .p6{
+    width: 93px;
+    height: 20px;
+    background: url("../img/33.png");
+    background-size: contain;
+    position: absolute;
+    bottom:-13%;
+    left:10%;
+    font-size: 14px;
+    color: #000;
+}
+.s5 div .bottom .p7{
+    position: absolute;
+    bottom:-5%;
+    right: 2%;
+    font-size: 14px;
+}
+.s5 div .bottom .p8{
+    width: 93px;
+    height: 20px;
+    background: url("../img/33.png");
+    background-size: contain;
+    position: absolute;
+    bottom:-13%;
+    right:0%;
+    font-size: 14px;
+    color: #000;
+}
 
 
-.s5 div .bottom{
-    width: 80%;
-    height: 57%;
-    position: absolute;
-    top: 25%;
-    left: 47%;
-    margin-left: -40%;
-}
-.s5 div .bottom .img5,
-.s5 div .bottom .img7{
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    left: 0;
-    bottom:-10%;
-}
-.s5 div .bottom .img6,
-.s5 div .bottom .img8{
-    width: 50%;
-    height: 50%;
+.s5 div .top .img2{
+    width: 53%;
+    height: 53%;
     position: absolute;
     right: -10%;
-    bottom:-10%;
+}
+
+.s5 div .top .img3 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top:-2%;
+    right: -9%;
+}
+
+.s5 div .bottom {
+    width: 80%;
+    height: 57%;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    margin-left: -40%;
+}
+
+.s5 div .bottom .img5 {
+    width: 53%;
+    height: 53%;
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+}
+.s5 div .bottom .img7 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 2%;
+    bottom: -5%;
+}
+
+.s5 div .bottom .img6 {
+    width: 53%;
+    height: 53%;
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+}
+.s5 div .bottom .img8 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: -9%;
+    bottom: -5%;
 }
 
 /*第六屏样式开始*/
 .s6 h2::after,
-.s6 h2::before{
+.s6 h2::before {
     content: "";
     width: 80px;
     height: 20px;
     display: inline-block;
     position: absolute;
 }
-.s6 h2::after{
+
+.s6 h2::after {
     background: url("../img/13.png");
     background-size: contain;
     margin-left: 66px;
     margin-top: 10px;
-    top:0;
+    top: 0;
 }
-.s6 h2::before{
+
+.s6 h2::before {
     background: url("../img/14.png");
     background-size: contain;
     margin-left: -95px;
     margin-top: 10px;
 }
-.s6 #dv1{
-     width: 80%;
-     height: 57%;
-     position: absolute;
-     top:20%;
-     left: 5%;
- }
-.s6 #dv1 .img1{
+
+.s6 #dv1 {
+    width: 80%;
+    height: 57%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.s6 #dv1 .img1 {
     width: 1px;
     position: absolute;
-    top:13%;
-    left:9%;
+    top: 13%;
+    left: 9%;
 }
-.s6 #dv1 .img2{
+
+.s6 #dv1 .img2 {
     position: absolute;
-    top:6%;
-    left:0;
+    top: 6%;
+    left: 0;
 }
-.s6 #dv1 .img3{
+
+.s6 #dv1 .img3 {
     position: absolute;
-    top:43%;
-    left:0;
+    top: 43%;
+    left: 0;
 }
-.s6 #dv1 .img4{
+
+.s6 #dv1 .img4 {
     position: absolute;
-    top:77%;
-    left:0;
+    top: 77%;
+    left: 0;
 }
-.s6 #dv1 div{
+
+.s6 #dv1 ul {
     width: 100%;
-    position:relative;
-    top:8%;
-    left:2%;
+    height: 100%;
+    position: absolute;
+    top: 8%;
+    left: 2%;
 }
-.s6 #dv1 div .p1{
+.s6 #dv1 ul li{
     width: 100%;
-    position:absolute;
-    left:0%;
-    top:5%;
+    position: absolute;
+}
+
+.s6 #dv1 ul li .p1 {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 1%;
     color: #000;
     font-size: 20px;
 }
-.s6 #dv1 div .img5{
+
+.s6 #dv1 ul li .img5 {
     width: 100%;
-    position:absolute;
-    left:15%;
+    position: absolute;
+    left: 15%;
+}
+
+.s6 #dv1 ul li {
+    width: 100%;
+    height: 100%;
+}
+
+.s6 #dv1 ul li .p2 {
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+
+.s6 #dv1 ul li .img6 {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.s6 #dv1 ul li .img7 {
+    width: 100%;
+    position: absolute;
+    left: 15%;
+    top:37%;
+}
+.s6 #dv1 ul li .p3 {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 38%;
+    color: #000;
+    font-size: 20px;
+}
+
+.s6 #dv1 ul li .img8 {
+    width: 100%;
+    position: absolute;
+    top: 47%;
+    left: 15%;
+}
+.s6 #dv1 ul li .p4 {
+     width: 100%;
+     font-size: 14px;
+     text-align: left;
+     position: absolute;
+     top: 50%;
+     left: 25%;
+ }
+
+
+.s6 #dv1 ul li .img9 {
+    width: 100%;
+    position: absolute;
+    left: 15%;
+    top:71%;
+}
+.s6 #dv1 ul li .p5{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 72%;
+    color: #000;
+    font-size: 20px;
+}
+
+.s6 #dv1 ul li .img10 {
+    width: 100%;
+    position: absolute;
+    top: 81%;
+    left: 15%;
+}
+.s6 #dv1 ul li .p6 {
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    position: absolute;
+    top:84%;
+    left: 25%;
+}
+
+/*第七屏样式开始*/
+.s7 h2::after,
+.s7 h2::before {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s7 h2::after {
+    background: url("../img/13.png");
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+
+.s7 h2::before {
+    background: url("../img/14.png");
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+.s7 #dv img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+
+.s7 #dv {
+    width: 80%;
+    height: 57%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -40%;
+
+}
+.s7 #dv input{
+    width: 90%;
+    padding: 15px;
+    position: absolute;
+    top:15%;
+    border:1px solid #7ff8e5;
+}
+
+.s7 #dv input:nth-of-type(1){
+    top:10%;
+    left:5%;
+}
+.s7 #dv input:nth-of-type(2){
+    top:30%;
+    left:5%;
+}
+.s7 #dv input:nth-of-type(3){
+    top:50%;
+    left:5%;
+}
+.s7 #dv button{
+    width: 90%;
+    padding: 15px;
+    border:1px solid #7ff8e5;
+    background: #00f2ca;
+    color: #fff;
+    position: absolute;
+    bottom:17%;
+    left:5%;
+}
+.s7 #dv .p1{
+    width: 65%;
+    font-size: 14px;
+    position: absolute;
+    bottom:5%;
+    left:17%;
 }
