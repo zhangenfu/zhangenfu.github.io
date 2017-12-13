@@ -125,7 +125,7 @@ body {
 
 .s1 .header img:nth-of-type(4) {
     width: 14%;
-    bottom: 25%;
+    bottom: 23%;
     right: 15%;
     animation: swing infinite;
 }
@@ -133,7 +133,7 @@ body {
 .s1 .header img:nth-of-type(5) {
     width: 70%;
     left: 50%;
-    top: 25%;
+    top: 22%;
     margin-left: -35%;
     animation: pulse infinite;
 
@@ -148,7 +148,7 @@ body {
 /*.s1第一屏文字部分*/
 .s1 .main {
     position: absolute;
-    top: 30%;
+    top: 28%;
 }
 
 .s1 .main img:nth-of-type(1) {
@@ -1117,7 +1117,7 @@ body {
     background: #00f2ca;
     color: #fff;
     position: absolute;
-    bottom:35%;
+    bottom:36%;
     left:5%;
 }
 .s7 #dv .p1{
