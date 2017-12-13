@@ -5,6 +5,9 @@
     <title>双选会</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
+    <!-- Link Swiper's CSS联网的样式 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.7/css/swiper.min.css">
+
     <!--animate css动画样式链接-->
     <link rel="stylesheet" href="css/animate.min.css">
 
@@ -12,6 +15,31 @@
     <link rel="Shortcut Icon" href="img/cc.ico" type="image/x-icon">
 </head>
 <body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">Slide 10</div>
+    </div>
+
+    <!-- 分页器（也就是小圆点）-->
+    <div class="swiper-pagination"></div>
+
+    <!--右按钮-->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <!--音乐-->
+    <!--开始音乐，暂停音乐，插入音乐-->
+    <!--点击开始，点击暂停，-->
+    <audio id="mp3" src="mp3/00001 (2).mp3" autoplay loop></audio>
+    <span id="mp3Btn"><img src="img/musicIcon.png"></span>
+</div>
 
 
 
@@ -25,6 +53,8 @@
 
 
 
+<!-- Swiper JS 联网JS样式-->
+<script src="https://cdn.bootcss.com/Swiper/4.0.7/js/swiper.min.js"></script>
 <!--animate JS动画样式链接-->
 <script rel="stylesheet" src="js/swiper.animate1.0.2.min.js"></script>
 
