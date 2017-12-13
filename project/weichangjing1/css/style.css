@@ -1103,11 +1103,11 @@ body {
     left:5%;
 }
 .s7 #dv input:nth-of-type(2){
-    top:20%;
+    top:21%;
     left:5%;
 }
 .s7 #dv input:nth-of-type(3){
-    top:33%;
+    top:34%;
     left:5%;
 }
 .s7 #dv button{
@@ -1117,7 +1117,7 @@ body {
     background: #00f2ca;
     color: #fff;
     position: absolute;
-    bottom:43%;
+    bottom:42%;
     left:5%;
 }
 .s7 #dv .p1{
