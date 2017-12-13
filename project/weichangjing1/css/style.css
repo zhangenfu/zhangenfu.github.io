@@ -118,23 +118,23 @@ body {
 
 .s1 .header img:nth-of-type(3) {
     width: 15%;
-    bottom: 21%;
+    bottom: 25%;
     left: 10%;
     animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(4) {
     width: 14%;
-    bottom: 23%;
+    bottom: 25%;
     right: 15%;
     animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(5) {
-    width: 70%;
+    width: 65%;
     left: 50%;
     top: 22%;
-    margin-left: -35%;
+    margin-left: -33%;
     animation: pulse infinite;
 
 }
@@ -152,11 +152,11 @@ body {
 }
 
 .s1 .main img:nth-of-type(1) {
-    width: 40%;
+    width: 35%;
 }
 
 .s1 .main img:nth-of-type(2) {
-    width: 80%;
+    width: 70%;
 }
 
 .s1 .main p {
