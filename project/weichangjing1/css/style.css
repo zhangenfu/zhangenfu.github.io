@@ -118,14 +118,14 @@ body {
 
 .s1 .header img:nth-of-type(3) {
     width: 50px;
-    bottom: 186px;
+    bottom: 150px;
     left: 34px;
     animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(4) {
     width: 50px;
-    bottom: 211px;
+    bottom: 180px;
     right: 50px;
     animation: swing infinite;
 }
@@ -937,7 +937,7 @@ body {
 
 .s6 #dv1 .img4 {
     position: absolute;
-    top: 77%;
+    top: 80%;
     left: 0;
 }
 
@@ -1024,13 +1024,13 @@ body {
     width: 100%;
     position: absolute;
     left: 15%;
-    top:71%;
+    top:74%;
 }
 .s6 #dv1 ul li .p5{
     width: 100%;
     position: absolute;
     left: 0;
-    top: 72%;
+    top: 75%;
     color: #000;
     font-size: 20px;
 }
@@ -1038,7 +1038,7 @@ body {
 .s6 #dv1 ul li .img10 {
     width: 100%;
     position: absolute;
-    top: 81%;
+    top: 84%;
     left: 15%;
 }
 .s6 #dv1 ul li .p6 {
@@ -1046,7 +1046,7 @@ body {
     font-size: 14px;
     text-align: left;
     position: absolute;
-    top:84%;
+    top:87%;
     left: 25%;
 }
 
@@ -1117,7 +1117,7 @@ body {
     background: #00f2ca;
     color: #fff;
     position: absolute;
-    bottom:42%;
+    bottom:40%;
     left:5%;
 }
 .s7 #dv .p1{
