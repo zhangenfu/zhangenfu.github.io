@@ -69,3 +69,13 @@ body {
 #mp3Btn img {
     width: 15px;
 }
+
+
+
+/*第一屏样式开始*/
+.s1{
+    background: url("../img/bj.png");
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
