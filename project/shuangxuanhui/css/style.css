@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -78,4 +83,36 @@ body {
     background-size: cover;
     height: 100%;
     position: relative;
+}
+.s1 .header img{
+    position: absolute;
+}
+.s1 .header img:nth-of-type(1){
+    width: 56%;
+    /*height: 60%;*/
+    top:25%;
+    right: 35%;
+}
+.s1 .header img:nth-of-type(2){
+    width: 25%;
+    top:7%;
+    left:10%;
+}
+.s1 .header .p1{
+    width: 8%;
+    position: absolute;
+    top:10%;
+    right: 15%;
+    font-size: 26px;
+    color: red;
+    font-family:方正行楷简体;
+}
+.s1 .header h2{
+    width: 8%;
+    position: absolute;
+    top:10%;
+    right: 22%;
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
 }
