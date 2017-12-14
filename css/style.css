@@ -1,3 +1,17 @@
+
+body{
+    /*background-image:url(../img/100.jpg);*/
+
+}
+.thumbnail img{
+    width:50%;
+    height: 25%;
+}
 .thumbnail{
     text-align: center;
+    /*background-image:url(../img/100.jpg);*/
+}
+.row{
+    padding: 20px;
+
 }
