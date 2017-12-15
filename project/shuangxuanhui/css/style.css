@@ -88,7 +88,7 @@ body {
     position: absolute;
 }
 .s1 .header img:nth-of-type(1){
-    width: 56%;
+    width: 50%;
     top:20%;
     right: 35%;
 }
