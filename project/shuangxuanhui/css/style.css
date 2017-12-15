@@ -221,7 +221,8 @@ body {
 .Preface,
 .s4,
 .s5,
-.s6{
+.s6,
+.s7{
     background: url("../img/bj2.jpg") center;
     background-size:cover;
     height: 100vh;
@@ -506,6 +507,54 @@ body {
     width: 100%;
     text-align: left;
     font-size: 14px;
+}
+
+
+/*第八屏样式开始*/
+.s7 .header{
+    width:100%;
+    position: absolute;
+    top:5%;
+}
+.s7 .header h3{
+    width:100%;
+}
+.s7 .main{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top:8%;
+    left: 50%;
+    margin-left: -40%;
+}
+.s7 .main input{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+.s7 .main input:nth-of-type(1){
+    left: 0;
+    top:8%;
+}
+.s7 .main input:nth-of-type(2){
+    left: 0;
+    top:30%;
+}
+.s7 .main input:nth-of-type(3){
+    left: 0;
+    top:50%;
+}
+.s7 .main input:nth-of-type(4){
+    left: 0;
+    top:72%;
+}
+.s7 .main button{
+    width: 100%;
+    height: 15%;
+    background: #48a6f3;
+    position: absolute;
+    left: 0;
+    bottom: -7%;
 }
 
 
