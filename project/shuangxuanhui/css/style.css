@@ -379,7 +379,7 @@ body {
 
 /*第六屏样式开始*/
 .s5 .main .dv1 p:nth-of-type(1){
-    width: 32%;
+    width: 35%;
     background:#f9da97;
     position: absolute;
     padding: 12px;
@@ -392,10 +392,10 @@ body {
     position: absolute;
     padding: 10px;
     top:16%;
-    right:15%;
+    right:10%;
 }
 .s5 .main .dv2 p:nth-of-type(1){
-    width: 32%;
+    width: 35%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -408,10 +408,10 @@ body {
     position: absolute;
     padding: 10px;
     top:28%;
-    right:15%;
+    right:10%;
 }
 .s5 .main .dv3 p:nth-of-type(1){
-    width: 32%;
+    width: 35%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -424,11 +424,11 @@ body {
     position: absolute;
     padding: 10px;
     top:40%;
-    right:15%;
+    right:10%;
 }
 
 .s5 .main .dv4 p:nth-of-type(1){
-    width: 32%;
+    width: 35%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -441,10 +441,10 @@ body {
     position: absolute;
     padding: 10px;
     top:52%;
-    right:15%;
+    right:10%;
 }
 .s5 .main .dv5 p:nth-of-type(1){
-    width: 32%;
+    width: 35%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -457,10 +457,10 @@ body {
     position: absolute;
     padding: 10px;
     top:64%;
-    right:15%;
+    right:10%;
 }
 .s5 .main .dv6 p:nth-of-type(1){
-    width: 32%;
+    width: 35%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -473,5 +473,5 @@ body {
     position: absolute;
     padding: 10px;
     top:76%;
-    right:15%;
+    right:10%;
 }

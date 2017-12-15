@@ -34,8 +34,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.200299">
-              <caret line="461" column="21" selection-start-line="461" selection-start-column="21" selection-end-line="461" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.48430493">
+              <caret line="467" column="12" selection-start-line="467" selection-start-column="12" selection-end-line="467" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/../../index.html" />
         <option value="$PROJECT_DIR$/../../css/style.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -475,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.200299">
-          <caret line="461" column="21" selection-start-line="461" selection-start-column="21" selection-end-line="461" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.48430493">
+          <caret line="467" column="12" selection-start-line="467" selection-start-column="12" selection-end-line="467" selection-end-column="12" />
           <folding />
         </state>
       </provider>
