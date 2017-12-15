@@ -219,12 +219,12 @@ body {
 }
 .s3 .header .text p{
     width: 92%;
-    font-size: 14px;
+    font-size: 16px;
     position: absolute;
     left:50%;
     margin-left:-46%;
     text-align: left;
-    line-height: 15px;
+    line-height: 18px;
 }
 .s3 .footer{
     width: 100%;
