@@ -481,7 +481,7 @@ body {
 .s6 .header{
     width:100%;
     position: absolute;
-    top:8%;
+    top:10%;
     left: 7%;
 }
 .s6 .header h3{
@@ -499,7 +499,7 @@ body {
     width: 90%;
     position: absolute;
     left:50%;
-    top:37%;
+    top:45%;
     margin-left:-45%;
 }
 .s6 .main p{
