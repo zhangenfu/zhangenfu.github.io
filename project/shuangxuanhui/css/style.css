@@ -224,6 +224,7 @@ body {
     left:50%;
     margin-left:-46%;
     text-align: left;
+    line-height: 15px;
 }
 .s3 .footer{
     width: 100%;
