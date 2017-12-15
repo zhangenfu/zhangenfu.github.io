@@ -379,7 +379,7 @@ body {
 
 /*第六屏样式开始*/
 .s5 .main .dv1 p:nth-of-type(1){
-    width: 35%;
+    width: 37%;
     background:#f9da97;
     position: absolute;
     padding: 12px;
@@ -395,7 +395,7 @@ body {
     right:10%;
 }
 .s5 .main .dv2 p:nth-of-type(1){
-    width: 35%;
+    width: 37%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -411,7 +411,7 @@ body {
     right:10%;
 }
 .s5 .main .dv3 p:nth-of-type(1){
-    width: 35%;
+    width: 37%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -428,7 +428,7 @@ body {
 }
 
 .s5 .main .dv4 p:nth-of-type(1){
-    width: 35%;
+    width: 37%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -444,7 +444,7 @@ body {
     right:10%;
 }
 .s5 .main .dv5 p:nth-of-type(1){
-    width: 35%;
+    width: 37%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
@@ -460,7 +460,7 @@ body {
     right:10%;
 }
 .s5 .main .dv6 p:nth-of-type(1){
-    width: 35%;
+    width: 37%;
     background:#f9da97;
     position: absolute;
     padding: 11px;
