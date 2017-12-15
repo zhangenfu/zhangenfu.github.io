@@ -538,15 +538,15 @@ body {
 }
 .s7 .main input:nth-of-type(2){
     left: 0;
-    top:30%;
+    top:34%;
 }
 .s7 .main input:nth-of-type(3){
     left: 0;
-    top:50%;
+    top:60%;
 }
 .s7 .main input:nth-of-type(4){
     left: 0;
-    top:72%;
+    top:85%;
 }
 .s7 .main button{
     width: 100%;
@@ -554,7 +554,7 @@ body {
     background: #48a6f3;
     position: absolute;
     left: 0;
-    bottom: -7%;
+    bottom: -25%;
 }
 
 
