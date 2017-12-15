@@ -218,7 +218,8 @@ body {
 
 /*第四屏样式开始*/
 .s3,
-.Preface{
+.Preface,
+.s4{
     background: url("../img/bj2.jpg") center;
     background-size:cover;
     height: 100vh;
@@ -275,3 +276,97 @@ body {
     border-top:0;
 }
 
+/*第五屏样式开始*/
+.s4 .header{
+    width:90%;
+    border-bottom:2px solid #000;
+    position: absolute;
+    top:6%;
+    left: 7%;
+}
+.s4 .header h2{
+    width:50%;
+}
+.s4 .main .dv1{
+    width: 80%;
+    background: #f9da97;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top:15%;
+    margin-left: -40%;
+}
+.s4 .main .dv1 p{
+    text-align: left;
+    font-size: 14px;
+}
+.s4 .main .dv1 h3{
+    width: 20%;
+    position: absolute;
+    top:13%;
+    right:10%;
+    color: red;
+}
+.s4 .main .dv2{
+    width: 80%;
+    background: #f9da97;
+    padding: 21px;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    margin-left: -40%;
+}
+.s4 .main .dv2 p{
+    text-align: left;
+    font-size: 14px;
+}
+.s4 .main .dv2 h3{
+    width: 20%;
+    position: absolute;
+    top:16%;
+    right:10%;
+    color: red;
+}
+
+.s4 .main .dv3{
+    width: 80%;
+    background: #f9da97;
+    padding: 12px;
+    position: absolute;
+    left: 50%;
+    top:45%;
+    margin-left: -40%;
+}
+.s4 .main .dv3 p{
+    text-align: left;
+    font-size: 14px;
+}
+.s4 .main .dv3 h3{
+    width: 20%;
+    position: absolute;
+    top:15%;
+    right:10%;
+    color: red;
+}
+
+.s4 .main .dv4{
+    width: 80%;
+    background: #f9da97;
+    padding: 12px;
+    position: absolute;
+    left: 50%;
+    top:60%;
+    margin-left: -40%;
+}
+.s4 .main .dv4 p{
+    width: 60%;
+    text-align: left;
+    font-size: 14px;
+}
+.s4 .main .dv4 h3{
+    width: 20%;
+    position: absolute;
+    top:14%;
+    right:10%;
+    color: red;
+}
