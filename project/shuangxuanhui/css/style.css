@@ -220,7 +220,8 @@ body {
 .s3,
 .Preface,
 .s4,
-.s5{
+.s5,
+.s6{
     background: url("../img/bj2.jpg") center;
     background-size:cover;
     height: 100vh;
@@ -475,3 +476,37 @@ body {
     top:76%;
     right:10%;
 }
+
+/*第七屏样式开始*/
+.s6 .header{
+    width:100%;
+    position: absolute;
+    top:8%;
+    left: 7%;
+}
+.s6 .header h3{
+    width:60%;
+    background: #fff;
+    padding: 30px;
+    transform:rotateZ(-22deg);
+}
+.s6 .header img{
+    width: 25%;
+    position: absolute;
+    top:0;
+}
+.s6 .main{
+    width: 90%;
+    position: absolute;
+    left:50%;
+    top:27%;
+    margin-left:-45%;
+}
+.s6 .main p{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+
