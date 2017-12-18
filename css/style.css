@@ -10,8 +10,5 @@ body{
 .thumbnail{
     text-align: center;
     background-image:url("../img/bj.jpg");
-}
-.row{
-    padding: 20px;
-
+    border:2px solid #a90303;
 }
